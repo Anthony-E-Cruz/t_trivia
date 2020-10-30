@@ -1,12 +1,12 @@
 import './App.css';
-import Trivia from './components/trivia'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/trivia';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Trivia></Trivia>
-        <p>Hello world</p>
+        <NavBar></NavBar>
       </header>
     </div>
   );
