@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/t_trivia/static/css/main.26c9b986.chunk.css",
-    "main.js": "/t_trivia/static/js/main.40b0ff8b.chunk.js",
-    "main.js.map": "/t_trivia/static/js/main.40b0ff8b.chunk.js.map",
+    "main.css": "/t_trivia/static/css/main.9ab73766.chunk.css",
+    "main.js": "/t_trivia/static/js/main.90aa9d88.chunk.js",
+    "main.js.map": "/t_trivia/static/js/main.90aa9d88.chunk.js.map",
     "runtime-main.js": "/t_trivia/static/js/runtime-main.2c5f1750.js",
     "runtime-main.js.map": "/t_trivia/static/js/runtime-main.2c5f1750.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/t_trivia/static/css/2.20aa2d7b.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.b1326162.chunk.js.map": "/t_trivia/static/js/3.b1326162.chunk.js.map",
     "index.html": "/t_trivia/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/t_trivia/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.26c9b986.chunk.css.map": "/t_trivia/static/css/main.26c9b986.chunk.css.map",
+    "static/css/main.9ab73766.chunk.css.map": "/t_trivia/static/css/main.9ab73766.chunk.css.map",
     "static/js/2.c74b62ef.chunk.js.LICENSE.txt": "/t_trivia/static/js/2.c74b62ef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2c5f1750.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.c74b62ef.chunk.js",
-    "static/css/main.26c9b986.chunk.css",
-    "static/js/main.40b0ff8b.chunk.js"
+    "static/css/main.9ab73766.chunk.css",
+    "static/js/main.90aa9d88.chunk.js"
   ]
 }
