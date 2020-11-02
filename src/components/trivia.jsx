@@ -51,12 +51,13 @@ class Pins extends React.Component {
       const listedQuestions = answers.map(ele => {
         return (
           <Button
+          className="game-button"
             onClick={this.handleSubmit.bind(this)}
             value={ele}
           >{ele}</Button>)
       })
       return (
-        <div>
+        <div className="questions">
           <p>
             {question}
           </p>
@@ -69,9 +70,13 @@ class Pins extends React.Component {
       )
     } else if (this.state.currentQuestion === 10) {
       return (
-        <div>
-          GAME OVER
-          <button onClick={this.handleRestart.bind(this)}>Try Again?</button>
+        <div className="game-over">
+          <div className="game-over-text">
+            GAME OVER
+          </div> 
+          <button
+            className="game-over-button"
+            onClick={this.handleRestart.bind(this)}>Try Again?</button>
         </div>
 
       )
@@ -97,10 +102,12 @@ class Pins extends React.Component {
     const score = this.state.score
     console.log(this.state)
     return (
-      <div>
-        <div>{score}</div>
-        <div>
+      <div className="main">
+        <div className="content">
+          <div className="score">Your score is {score} / 10</div>
+
           {this.question()}
+
         </div>
       </div>
     )

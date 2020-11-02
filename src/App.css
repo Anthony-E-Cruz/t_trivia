@@ -1,38 +1,69 @@
-/* .App {
-  text-align: center;
-} */
-/* 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  width: fit-content; 
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.game-over-button{
+  box-shadow: 0px 0px 0px 2px #7b7c80;
+	background:linear-gradient(to bottom, #3e444f 5%, #868f99 100%);
+	background-color:#3e444f;
+	border-radius:20px;
+	border:4px solid #8c93a8;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:23px;
+	font-weight:bold;
+	padding:17px 44px;
+	text-decoration:none;
+	text-shadow:0px 0px 15px #283966;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.game-over-button:hover {
+  background:linear-gradient(to bottom, #868f99 5%, #3e444f 100%);
+	background-color:#868f99;
+}
+
+.game-over {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.game-over-text {
+  font-size: 20px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 100px;
+  /* background: black; */
+}
+
+.content {
+  border-radius: 10px;
+  border: 10px solid #464646;
+  padding: 20px;
+}
+
+.game-button {
+  color: #3e444f;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 

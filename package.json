@@ -2,7 +2,7 @@
   "name": "t_trivia",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://anthony-e-cruz.github.io/trivia/",
+  "homepage": "http://anthony-e-cruz.github.io/t_trivia/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
